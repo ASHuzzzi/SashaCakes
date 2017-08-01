@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ru.lizzzi.sashacakes.entity.IconView
+        android:id="@+id/navigation_item_iconView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/navigation_item_badgeView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+    <ru.lizzzi.sashacakes.entity.LabelView
+        android:id="@+id/navigation_item_labelView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/navigation_item_iconView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="2dp"
+        android:textSize="@dimen/text_normal"
+        tools:text="text" />
+
+    <ru.lizzzi.sashacakes.entity.BadgeView
+        android:id="@+id/navigation_item_badgeView"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="false"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/navigation_item_iconView"
+        android:background="@drawable/navigation_badge_background"
+        android:gravity="center"
+        android:textColor="@color/navigation_badge_text_color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        tools:text="12" />
+
+</RelativeLayout>

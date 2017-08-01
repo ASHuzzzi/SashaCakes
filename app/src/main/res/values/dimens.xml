@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+
+    <!-- Размеры шрифтов -->
+    <dimen name="text_header_level0">24sp</dimen>
+    <dimen name="text_header_level1">22sp</dimen>
+    <dimen name="text_header_level2">20sp</dimen>
+    <dimen name="text_normal">18sp</dimen>
+    <dimen name="text_price">16sp</dimen>
+    <dimen name="text_BottomNavigationView">12sp</dimen>
+
+    <!-- Отступы для фрагментов -->
+    <dimen name="layout_marginTop">10dp</dimen>
+    <dimen name="layout_marginStart">10dp</dimen>
+    <dimen name="layout_marginEnd">10dp</dimen>
+
+    <declare-styleable name="BottomNavigationView">
+        <attr name="enable_label" format="boolean"/>
+        <attr name="enable_icon" format="boolean"/>
+        <attr name="enable_badge" format="boolean"/>
+        <attr name="label_color_before" format="color"/>
+        <attr name="label_color_after" format="color"/>
+        <attr name="label_textSize" format="dimension"/>
+    </declare-styleable>
+</resources>

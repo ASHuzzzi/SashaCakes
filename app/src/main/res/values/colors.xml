@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#039be5</color>
+    <color name="colorPrimaryDark">#006db3</color>
+    <color name="colorPrimaryLigth">#63ccff</color>
+    <color name="colorAccent">#016595</color>
+    <color name="navigation_badge_icon_color">#FF3500</color>
+    <color name="navigation_badge_text_color">#FFFFFF</color>
+
+    <color name="colorTextPrimary">#000000</color>
+</resources>

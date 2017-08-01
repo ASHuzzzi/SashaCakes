@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="ru.lizzzi.sashacakes.AboutMe">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/LayoutStand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="@dimen/text_header_level2" />
+
+            <EditText
+                android:id="@+id/editText_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/layout_marginEnd"
+                android:layout_marginStart="@dimen/layout_marginStart"
+                android:inputType="text"
+                android:labelFor="@+id/editText_Name" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Telephone"
+                android:textSize="@dimen/text_header_level2" />
+
+            <EditText
+                android:id="@+id/editText_Telephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/layout_marginEnd"
+                android:layout_marginStart="@dimen/layout_marginStart"
+                android:inputType="phone"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Email"
+                android:textSize="@dimen/text_header_level1" />
+
+            <EditText
+                android:id="@+id/editText_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/layout_marginEnd"
+                android:layout_marginStart="@dimen/layout_marginStart"
+                android:inputType="textEmailAddress"
+                android:labelFor="@+id/editText_Email"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Street"
+                android:textSize="@dimen/text_header_level2" />
+
+            <EditText
+                android:id="@+id/editText_Street"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/layout_marginEnd"
+                android:layout_marginStart="@dimen/layout_marginStart"
+                android:inputType="text"
+                android:labelFor="@+id/editText_Street" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Home"
+                android:textSize="@dimen/text_header_level2" />
+
+            <EditText
+                android:id="@+id/editText_Home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/layout_marginEnd"
+                android:layout_marginStart="@dimen/layout_marginStart"
+                android:inputType="text"
+                android:labelFor="@+id/editText_Home" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/Text_for_invisible_BV"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/button_save_contacts"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/Save"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/Text_for_invisible_BV"
+                        android:visibility="invisible" />
+                </TableRow>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
